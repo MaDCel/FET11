@@ -17,8 +17,21 @@ git status
 git add .
 2. commit 
 - Create a commit
-git commit -m "This is the description."
+
 
 - Check the history
 git log 
 git log --oneline
+
+
+- BRANCHING
+
+- List all of the branches
+git branch -a
+
+- Create a branch
+git branch [branch-name]
+
+- Switch to a different branch
+git switch [branch-name]
+git checkout [branch-name] - for older version of git
