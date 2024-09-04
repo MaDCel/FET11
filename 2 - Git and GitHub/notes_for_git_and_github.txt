@@ -1,16 +1,16 @@
-- Configuring Git
+>> Configuring Git
 git config --global user.name "username"
 git config --global user.email "email"
 git config user.name
 git config user.email
 
-- Initialize a Repository
+>> Initialize a Repository
 git init
 
-- Check the status of all of our files and folders
+>> Check the status of all of our files and folders
 git status
 
-- GIT 3 STAGE
+>> GIT 3 STAGE
 1. workspace - untracked files
 2. staging - add files
 - Add all of the files that have been modified to the staging area
@@ -19,12 +19,12 @@ git add .
 - Create a commit
 
 
-- Check the history
+>> Check the history
 git log 
 git log --oneline
 
 
-- BRANCHING
+>> BRANCHING
 
 - List all of the branches
 git branch -a
@@ -35,3 +35,11 @@ git branch [branch-name]
 - Switch to a different branch
 git switch [branch-name]
 git checkout [branch-name] - for older version of git
+
+>> MERGING
+
+- Merge a branch
+git merge [branch-name]
+
+>> Delete a branch
+git branch -d [branch-name]
